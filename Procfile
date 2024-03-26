@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn gestao_clientes.wsgi
+web: gunicorn django_default.wsgi
